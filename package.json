@@ -1,0 +1,17 @@
+{
+  "name": "setflow-workout-tracker",
+  "version": "1.1.0",
+  "description": "A local-first multi-user workout tracker with cloud sync, progress analytics, private photo check-ins, and optional connected AI coaching.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check server.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}
